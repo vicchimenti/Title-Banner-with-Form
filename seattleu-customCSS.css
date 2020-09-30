@@ -152,7 +152,7 @@ h1.tBannerText:hover {
 @media screen and (min-width: 768px) and (max-width: 991px) {
 
   #id<t4 type="meta" meta="content_id" /> .sectionHomepageBanner {
-    background-image: url('<t4 type="content" name="Image for Medium-Large Screens" output="imageurl" xhtml="false" />'); 
+    background-image: url('<t4 type="content" name="Banner Image" output="imageurl" xhtml="false" />'); 
     background-position: <t4 type="content" name="Background horizontal positioning" output="selective-output" modifiers="striptags,htmlentities" format="$value" /> center;
     <t4 type="content" name="Banner Image" output="selective-output" modifiers="striptags,htmlentities" format="height: $value;" />
   }
@@ -161,7 +161,7 @@ h1.tBannerText:hover {
 @media screen and (min-width: 992px) {
 
   #id<t4 type="meta" meta="content_id" /> .sectionHomepageBanner {
-    background-image: url('<t4 type="content" name="Image for Medium-Large Screens" output="imageurl" xhtml="false" />');
+    background-image: url('<t4 type="content" name="Banner Image" output="imageurl" xhtml="false" />');
     <t4 type="content" name="Banner Image" output="selective-output" modifiers="striptags,htmlentities" format="height: $value;" />
   }
 }
