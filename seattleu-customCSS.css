@@ -154,7 +154,7 @@ h1.tBannerText:hover {
   #id<t4 type="meta" meta="content_id" /> .sectionHomepageBanner {
     background-image: url('<t4 type="content" name="Banner Image" output="imageurl" xhtml="false" />'); 
     background-position: <t4 type="content" name="Background horizontal positioning" output="selective-output" modifiers="striptags,htmlentities" format="$value" /> center;
-    <t4 type="content" name="Banner Image" output="selective-output" modifiers="striptags,htmlentities" format="height: $value;" />
+    <t4 type="content" name="Image height for Medium-Large image" output="selective-output" modifiers="striptags,htmlentities" format="height: $value;" />
   }
 }
 
@@ -162,6 +162,6 @@ h1.tBannerText:hover {
 
   #id<t4 type="meta" meta="content_id" /> .sectionHomepageBanner {
     background-image: url('<t4 type="content" name="Banner Image" output="imageurl" xhtml="false" />');
-    <t4 type="content" name="Banner Image" output="selective-output" modifiers="striptags,htmlentities" format="height: $value;" />
+    <t4 type="content" name="Image height for Medium-Large image" output="selective-output" modifiers="striptags,htmlentities" format="height: $value;" />
   }
 }
