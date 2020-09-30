@@ -6,7 +6,7 @@ a.titleBanner2BackgroundImageLink {
   display: block;
 }
 
-/* a.titleBanner2BackgroundImageLink:hover {
+a.titleBanner2BackgroundImageLink:hover {
   text-decoration: none;
 }
 
@@ -16,7 +16,7 @@ a.titleBanner2BackgroundImageLink {
 
 h1.tBannerText:hover {
   text-decoration: none;
-} */
+}
 
 .sectionHomepageBannerWrapper {
   margin-bottom: 10px;
