@@ -1,4 +1,4 @@
-<t4 type="content" name="Custom Banner CSS" output="normal" modifiers="medialibrary,nav_sections" />
+/* <t4 type="content" name="Custom Banner CSS" output="normal" modifiers="medialibrary,nav_sections" /> */
 
 
 
@@ -6,7 +6,7 @@ a.titleBanner2BackgroundImageLink {
   display: block;
 }
 
-a.titleBanner2BackgroundImageLink:hover {
+/* a.titleBanner2BackgroundImageLink:hover {
   text-decoration: none;
 }
 
@@ -16,7 +16,7 @@ a.titleBanner2BackgroundImageLink:hover {
 
 h1.tBannerText:hover {
   text-decoration: none;
-}
+} */
 
 .sectionHomepageBannerWrapper {
   margin-bottom: 10px;
@@ -141,13 +141,13 @@ h1.tBannerText:hover {
 }
 
 
-@media screen and (max-width: 767px) {
+/* @media screen and (max-width: 767px) {
 
   #id<t4 type="meta" meta="content_id" /> .sectionHomepageBanner {
     background-image: url('<t4 type="content" name="Image for Extra Small screens" output="imageurl" xhtml="false" />');
     background-position: <t4 type="content" name="Background horizontal positioning" output="selective-output" modifiers="striptags,htmlentities" format="$value" /> center;
   }
-}
+} */
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
 
