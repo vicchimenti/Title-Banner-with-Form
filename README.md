@@ -11,3 +11,7 @@ Title banners are the most common banner on landing and home pages. They are lar
     * plaintext
 * Zone Option
     * radio buttons
+
+
+### Challenges
+The banner is actually a background, so when placing the active form on the banner it becomes part of the background which mutes the active elements
