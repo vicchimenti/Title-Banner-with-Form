@@ -1,12 +1,12 @@
 /* <t4 type="content" name="Custom Banner CSS" output="normal" modifiers="medialibrary,nav_sections" /> */
 
 
-iframe#t4-form-2861 {
+div.titleBanner2Triangles iframe {
   height: auto;
   padding-left: 5rem;
   position: relative;
   width: 20%;
-  z-index: 3;
+  z-index: 4;
 }
 
 a.titleBanner2BackgroundImageLink {
