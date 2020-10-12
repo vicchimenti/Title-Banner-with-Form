@@ -2,12 +2,23 @@
 
 
 div.titleBanner2Triangles iframe {
-  height: auto;
-  padding-left: 5rem;
-  position: relative;
-  width: 20%;
-  z-index: 4;
+  /* height: auto; */
+  padding-left: 10rem;
+  /* position: relative; */
+  /* width: 20%; */
+  /* z-index: 4; */
 }
+
+@media screen and (max-width: 500px) {
+  div.titleBanner2Triangles iframe {
+    /* height: auto; */
+    padding-left: 3rem;
+    /* position: relative; */
+    /* width: 20%; */
+    /* z-index: 4; */
+  }
+}
+
 
 a.titleBanner2BackgroundImageLink {
   display: block;
