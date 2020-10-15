@@ -1,6 +1,22 @@
 /* <t4 type="content" name="Custom Banner CSS" output="normal" modifiers="medialibrary,nav_sections" /> */
 
 
+label.form_label {
+  font-family: 'Montserrat';
+  font-size: medium;
+  font-weight: 900;
+}
+
+form input {
+  font-family: 'Montserrat';
+  font-size: medium;
+  font-weight: 900;
+}
+
+div.action button.default {
+  background-color: #24a0ed;
+}
+
 div.titleBanner2Triangles iframe {
   padding-left: 10rem;
 }
