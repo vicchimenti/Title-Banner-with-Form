@@ -13,7 +13,7 @@ form input {
   font-weight: 900;
 }
 
-div.formWrapper form input #text {
+div.formWrapper div#form_start div {
   font-family: 'Montserrat';
   font-size: xx-large;
   font-weight: 900;
