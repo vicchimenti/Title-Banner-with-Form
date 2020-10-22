@@ -13,6 +13,12 @@ form input {
   font-weight: 900;
 }
 
+form input #text {
+  font-family: 'Montserrat';
+  font-size: medium;
+  font-weight: 900;
+}
+
 div.action button.default {
     color: #fff;
     background-color: #337ab7;
