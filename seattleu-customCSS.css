@@ -17,9 +17,9 @@ div.action button.default {
   background-color: #24a0ed;
 }
 
-div.titleBanner2Triangles iframe {
+/* div.titleBanner2Triangles iframe {
   padding-left: 10rem;
-}
+} */
 
 @media screen and (max-width: 500px) {
   div.titleBanner2Triangles iframe {
