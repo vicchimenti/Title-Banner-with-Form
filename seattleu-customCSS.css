@@ -28,12 +28,13 @@ div.titleBanner2Triangles iframe {
 }
 
 div.formWrapper {
-    padding-left: 10rem;
+    padding-left: 11rem;
+    width: 75%;
 }
 
 @media screen and (max-width: 500px) {
   div.formWrapper {
-    padding-left: 3rem;
+    padding-left: 5rem;
   }
 }
 
