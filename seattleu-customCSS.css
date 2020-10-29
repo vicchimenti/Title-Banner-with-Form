@@ -13,6 +13,16 @@ form input {
   font-weight: 900;
 }
 
+.form_responses select[size] {
+  height: 25px;
+}
+
+.form-description {
+  font-family: 'Montserrat';
+  font-size: medium;
+  font-weight: 900;
+}
+
 div.formWrapper div#form_start div {
   font-family: 'Montserrat';
   font-size: xx-large;
