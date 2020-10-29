@@ -3,14 +3,14 @@
 
 label.form_label {
   font-family: 'Montserrat';
-  font-size: medium;
-  font-weight: 900;
+  font-size: small;
+  font-weight: 600;
 }
 
 form input {
   font-family: 'Montserrat';
-  font-size: medium;
-  font-weight: 900;
+  font-size: small;
+  font-weight: 600;
 }
 
 .form_responses select[size] {
@@ -19,20 +19,21 @@ form input {
 
 .form-description {
   font-family: 'Montserrat';
-  font-size: medium;
-  font-weight: 900;
+  font-size: small;
+  font-weight: 600;
 }
 
-div.formWrapper div#form_start div {
+/* div.formWrapper div#form_start div {
   font-family: 'Montserrat';
   font-size: xx-large;
-  font-weight: 900;
-}
+  font-weight: 600;
+} */
 
 div.action button.default {
-    color: #fff;
     background-color: #337ab7;
     border-color: #2e6da4;
+    color: #fff;
+    font-size: small;
 }
 
 div.action button.default:hover {
