@@ -1,6 +1,25 @@
 /* <t4 type="content" name="Custom Banner CSS" output="normal" modifiers="medialibrary,nav_sections" /> */
 
 
+div.action button.default {
+  background-color: #088099;
+    border: 1px solid #fff;
+    text-transform: uppercase;
+    padding: 1rem 2rem;
+    display: inline-block;
+    font-weight: 500;
+    margin-top: 0.2rem;
+    font-size: small;
+    color: #fff;
+}
+
+div.action button.default:hover {
+    color: #fff;
+    background-color: #aa0000;
+    border-color: #204d74;
+}
+
+
 label.form_label {
   font-family: 'Montserrat';
   font-size: small;
@@ -29,7 +48,7 @@ form input {
   font-weight: 600;
 } */
 
-div.action button.default {
+/* div.action button.default {
     background-color: #337ab7;
     border-color: #2e6da4;
     color: #fff;
@@ -40,7 +59,9 @@ div.action button.default:hover {
     color: #fff;
     background-color: #286090;
     border-color: #204d74;
-}
+} */
+
+
 
 /* div.titleBanner2Triangles iframe {
   padding-left: 10rem;
