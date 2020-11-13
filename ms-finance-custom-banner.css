@@ -1,0 +1,250 @@
+/* <t4 type="content" name="Custom Banner CSS" output="normal" modifiers="medialibrary,nav_sections" /> */
+
+
+div.action button.default {
+  background-color: #088099;
+    border: 1px solid #fff;
+    text-transform: uppercase;
+    padding: 1rem 2rem;
+    display: inline-block;
+    font-weight: 500;
+    margin-top: 0.2rem;
+    font-size: small;
+    color: #fff;
+}
+
+div.action button.default:hover {
+    color: #fff;
+    background-color: #aa0000;
+    border-color: #204d74;
+}
+
+
+label.form_label {
+  font-family: 'Montserrat';
+  font-size: small;
+  font-weight: 600;
+}
+
+form input {
+  font-family: 'Montserrat';
+  font-size: small;
+  font-weight: 600;
+}
+
+.form_responses select[size] {
+  height: 25px;
+}
+
+.form-description {
+  font-family: 'Montserrat';
+  font-size: small;
+  font-weight: 600;
+}
+
+/* div.formWrapper div#form_start div {
+  font-family: 'Montserrat';
+  font-size: xx-large;
+  font-weight: 600;
+} */
+
+/* div.action button.default {
+    background-color: #337ab7;
+    border-color: #2e6da4;
+    color: #fff;
+    font-size: small;
+}
+
+div.action button.default:hover {
+    color: #fff;
+    background-color: #286090;
+    border-color: #204d74;
+} */
+
+
+
+/* div.titleBanner2Triangles iframe {
+  padding-left: 10rem;
+} */
+
+@media screen and (max-width: 500px) {
+  div.titleBanner2Triangles iframe {
+    padding-left: 3rem;
+  }
+}
+
+div.formWrapper {
+    padding-left: 11rem;
+    width: 75%;
+}
+
+@media screen and (max-width: 500px) {
+  div.formWrapper {
+    padding-left: 5rem;
+  }
+}
+
+
+a.titleBanner2BackgroundImageLink {
+  display: block;
+}
+
+a.titleBanner2BackgroundImageLink:hover {
+  text-decoration: none;
+}
+
+.titleBanner2Text:hover {
+  text-decoration: none;
+}
+
+h1.tBannerText:hover {
+  text-decoration: none;
+}
+
+.sectionHomepageBannerWrapper {
+  margin-bottom: 10px;
+}
+
+.sectionHomepageBanner {
+  background: #ffffff;
+  background-position: left center; /* could be overriden by content item */
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  height: 300px; /* could be overriden by content item */
+  justify-content: center;
+}
+
+.megaBannerOverlay {
+  min-height: 100%;
+  opacity: .8;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.megaBannerOverlayRed {
+  background-color: #aa0000;
+  opacity: .9;
+}
+
+.megaBannerOverlayDarkBlue {
+  background-color: #00245d;
+  opacity: .9;
+}
+
+.megaBannerOverlayLightBlue {
+  background-color: #04899d;
+  opacity: .85;
+}
+
+.megaBannerOverlayGold {
+  background-color: #fab82f;
+  opacity: .85;
+}
+
+.megaBannerOverlayGreen {
+  background-color: #6cb33f;
+  opacity: .85;
+}
+
+.megaBannerOverlayOrange {
+  background-color: #ef4135;
+  opacity: .9;
+}
+
+.megaBannerOverlayBlack {
+  background-color: #333333;
+  opacity: .9;
+}
+
+.megaBannerOverlayWhite {
+  background-color: #ffffff;
+  opacity: .9;
+}
+
+.megaBannerOverlaytransparent {
+  background:none;
+}
+
+.megaBannerTextRed          { color:#aa0000; }
+.megaBannerTextDarkBlue     { color:#00245d; }
+.megaBannerTextLightBlue    { color:#04899d; }
+.megaBannerTextGold         { color:#fab82f; }
+.megaBannerTextGreen        { color:#6cb33f; }
+.megaBannerTextOrange       { color:#ef4135; }
+.megaBannerTextBlack        { color:#333333; }
+.megaBannerTextWhite        { color:#ffffff; }
+.megaBannerTexttransparent  { color:#ffffff; }
+
+
+.sectionHomepageBanner .copy {
+  padding:25px 0;
+  text-align: center;
+}
+
+/* fo no proper flexbox support */
+.no-flexbox.no-flexboxtweener .megaBanner .copy {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.megaBannerText {
+    font-family: "Arvo", serif;
+    position: relative;
+    text-transform: uppercase;
+    z-index: 2;
+}
+
+.sectionHomepageBanner .copy .megaBannerText h2 {
+    font-size: 45px;
+    margin:0;
+}
+
+.sectionHomepageBanner .copy .megaBannerText h5 {
+    font-size: 25px;
+    margin:0;
+}
+
+
+
+@media (max-width: 767px) {
+
+  .sectionHomepageBanner {
+    background-position: top center;
+    height: inherit;
+  }
+
+  .sectionHomepageBanner .copy .megaBannerText {
+    padding:25px 15px;
+  }  
+}
+
+
+@media screen and (max-width: 767px) {
+
+  #id<t4 type="meta" meta="content_id" /> .sectionHomepageBanner {
+    background-image: url('<t4 type="content" name="Banner Image" output="imageurl" xhtml="false" />');
+    background-position: <t4 type="content" name="Background horizontal positioning" output="selective-output" modifiers="striptags,htmlentities" format="$value" /> center;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+  #id<t4 type="meta" meta="content_id" /> .sectionHomepageBanner {
+    background-image: url('<t4 type="content" name="Banner Image" output="imageurl" xhtml="false" />'); 
+    background-position: <t4 type="content" name="Background horizontal positioning" output="selective-output" modifiers="striptags,htmlentities" format="$value" /> center;
+    <t4 type="content" name="Image height for Medium-Large image" output="selective-output" modifiers="striptags,htmlentities" format="height: $value;" />
+  }
+}
+
+@media screen and (min-width: 992px) {
+
+  #id<t4 type="meta" meta="content_id" /> .sectionHomepageBanner {
+    background-image: url('<t4 type="content" name="Banner Image" output="imageurl" xhtml="false" />');
+    <t4 type="content" name="Image height for Medium-Large image" output="selective-output" modifiers="striptags,htmlentities" format="height: $value;" />
+  }
+}
